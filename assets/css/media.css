@@ -1,0 +1,83 @@
+/*=========================================
+Media Query of product details Are Here! 
+==========================================*/
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
+
+
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  
+  
+    
+ }
+
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+.blog-sidebar-layout-1 .blog-post-content {
+    display: inline-flex !important;
+    width: 49%;
+}
+.most-read-section-sidebar {
+    margin-top: 24px;
+}
+
+.blog-sidebar-ads img {
+    height: 300px;
+    width: 300px;
+}
+.featured-post-section.blog-layout-2.py-5 {
+    padding: 0 !important;
+}
+ }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+ .container {
+        max-width: 90% !important;
+    }
+    .single-blog-description figure {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+
+    
+}
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+   .container {
+        max-width: 100% !important;
+    }
+    .blog-sidebar-layout-1 .blog-post-content {
+       
+        width: 100%;
+        align-items: center;
+    }
+
+    .most-read-section-with-sidebar .blog-post-content {
+        display:  block !important;
+    }
+
+    .most-read-section-with-sidebar .most-read-post-img-wrapper {
+        width: 100%;
+    }
+      
+    .most-read-section-with-sidebar .blog-post-body {
+        width: 100%;
+        padding: 15px 5px 10px 0;
+    }
+  .single-blog-featured-section .blog-post-design1 .post-title {
+    font-size: 30px;
+    line-height: 35px !important;
+
+}
+  .single-post-social-btn ul li {
+
+    margin-bottom: 10px;
+}
+  
+}
+
